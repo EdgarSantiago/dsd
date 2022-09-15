@@ -1,0 +1,75 @@
+1)Oque irá ocorrer com um componente COM+ se o seu suporte
+a transação for definido como "com suporte" 
+    D)Esta definição é designada para componentes COM+
+    que não acessam fontes de dados e o resultado é que
+    o componente não precisa de auxílio de uma transação.
+    Porém, o objeto sempre será ativado dentro de um novo
+    contexto.
+
+2)A figura abaixo apresenta uma arquitetura em camadas
+proposta por um analista para um projeto J2EE.
+e)
+
+3)Com o passar dos anos, as aplicações empresariais evoluíram
+de aplicações monolíticas executando em computadores de grande porte,
+para aplicações do tipo cliente-servidor e, então, para aplicações em 3
+camadas.
+Essas camadas são:
+    B)Apresentação, lógica de domínio e fonte de dados.
+
+4)Em relação à arquitetura cliente/servidor, usada na implementação
+de sistema distribuidos, analise as seguinter afirmativas:
+    I. A arquitetura cliente/servidor define um modelo de
+    interação entre processos clientes e servidores que 
+    resolve o problema do rendezvous: clientes iniciam a comunicação
+    e servidores esperam por requizições.
+
+    II. Em servidores sem estado(informações de estado não são mantidas entre o 
+    processamento de requizições), o significado de uma do cliente não devedependes
+    da sequÊncia de mensagens anteriores
+
+    III; Um programa cliente individual opera como um programa convenciona, ele não 
+    precisa gerenciar concorrência explicitamente na comunicação com o servidor.
+
+        E) todas são verdadeiras
+
+5)Em relação ao paradigma de programação cliente-servidor.
+Qual das afirmativas abaixo é false ?
+    A) Um aplicativo servidor inicia ativamente o contato com clientes
+    arbitrários.
+
+6)No modelo de arquitetura de sistema cliente-servidor, o processo cliente provê
+uma interface que permite a interação com o servidor; o processo servidor
+gerencia os recursos compartilhados, tais como processadores, bancos de
+dados, impressoras, acesso à rede, dentre outros. Considere as seguintes
+afirmativas relacionadas ao modelo de arquitetura cliente-servidor:
+    
+    I. As máquinas clientes e servidoras têm requerimentos diferentes de recursos
+    computacionais, tais como velocidade de processador, memória, velocidade e
+    capacidade de discos e dispositivos de E/S.
+    
+    II. O ambiente cliente-servidor é tipicamente heterogêneo. As plataformas de
+    hardware e o sistema operacional dos clientes e servidores não são os
+    mesmos. Os processos cliente e servidor se comunicam através de um
+    conjunto bem definido de interfaces padronizadas.
+    
+    III. Uma característica importante da arquitetura cliente-servidor é a
+    escalabilidade.
+    
+    IV. Nessa arquitetura, o processo servidor inicia a comunicação com o
+    processo cliente.
+
+    Assinale a alternativa correta.
+    B)Somenta I, II, III são verdadeiras.
+
+7)Uma das vantagens mais importantes da arquitetura cliente/servidor é:
+    A) O gerenciamento dos recursos da rede pode ser centralizado e controlado
+    pelo servidor
+
+
+8) Na arquitetura cliente-servidor, é correto afirmar que:
+    B) O sistema cliente utiliza uma interface de conectividade
+    para requisitar serviços ao servidor e para receber as respostas correspondentes.
+
+9)A arquitetura multicamadas dividi-se em três camadas lógicas. São elas:
+    E)Apresentação, Negócio e Acesso a Dados.

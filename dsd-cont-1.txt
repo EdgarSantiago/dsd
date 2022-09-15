@@ -1,0 +1,135 @@
+###XML x JSON
+    Oque é Json?
+        -JSON(JavaScript Object Notation)
+        é um formato leve de intercâmbio
+        de dados. É fácil para os humanos
+        ler e escrever.
+
+        -É fácil para as máquinas analisar
+        e gerar
+
+        -Baseia-se em um subconjunto da 
+        linguagen de programação JavaScript
+
+        -O JSON é um formato de texto que É
+        completamente independente de linguagem,
+        mas usa convenções que são familiares
+        aos programadores da família C de idiomas
+        incluindo C, C++, C#, Java, JavaScript,
+        Perl, Python e muitos outros.
+
+        -Essas propriedades fazem da JSON uma 
+        linguagem de intercâmbio de dados ideal.
+
+    O JSON é construído em duas estruturas
+        - Uma coleção de pares nome / valor. Em vários
+        idiomas isto é realizado como um objeto, registro,
+        estrutura, dicionário, tabela de hash, lista de 
+        chaves ou matriz associativa.
+
+        - Uma lista ordenada de valores. Na maioria
+        dos idiomas, isso é realizado como uma matrix,
+        vetor, lista ou sequência.
+
+        - Estas são estruturas de dados universais. 
+        Praticamente todas as linguagens de programação
+        modernas os suportam de uma forma ou de outra.
+
+    
+    A diferença entre xml e json é a forma de fazer a notação dos dados. 
+    O JSON utiliza uma notação simples, enquanto o XML utiliza uma estrutura
+    de tags personalizadas para representar os objetos. Além disso, elas devem 
+    conter o par, ou seja, a tag de abertura e a de fechamento.
+
+    REST é um conjunto de diretrizes que oferece uma implementação flexível. 
+    Já SOAP é um protocolo com requisitos específicos, como mensageria XML.
+
+
+###Caracterização de Sistemas Distribuidos
+
+    Defini-se um sistema distribuido como sendo aquele
+    no qual os componentes de hardware ou software,
+    localizados em computadores interligados em rede,
+    se comunicam e coordenam suas ações apenas enviando
+    mensagens entre si. Essa definição simples abrange
+    toda a gama de sistemas nos quais computadores
+    interligados em rede podem ser distribuidos de maneira
+    útil.
+
+        Para definis um sistema distribuido deve-se levar
+        em consideração:
+
+            - Concorrência: em uma rede de computadores, a execução
+            concorrente de programas é a norma. Posso fazer meu trabalho
+            em meu computador, enquanto alguém faz o seu em uma máquina,
+            compartilhando recursos como páginas web ou arquivos, quando
+            necessário. A capacidade do sistema de manipular recursos
+            compartilhados pode ser ampliada pela adição de mais recursos na rede.
+            A coordenação de programas em execução concorrente e que compartilham 
+            recursos também é um assunto importante e recorrente.
+
+            - Inexistência de relógio global: quando os programas precisam cooperar
+            eles coordenam suas ações trocando mensagens. A coordenação frequentemente
+            depende de uma noção compartilhada do tempo em que as ações dos programas ocorrem.
+
+
+            - Falhas independentes: todos os sistemas de computador podem falhar e é responsabilidade
+            dos projetistas de sistema pensar nas consequências das possíveis falhas.
+            Nos sistemas distribuídos, as falhas são diferenter. Falhas na rede resultam
+            no isolamento dos computadores que estão conectados a ela, mas isso não significa
+            que eles param de funcionar. Na verdade, os programas neles existentes talvez não
+            consigam detectar se a rede falhou ou se tornor demasiadamente lenta. Analogamente, a falha
+            de um computador ou o término inesperado de um programa em algum lugar no sistema não
+            é imediatamente percebida pelos outros componentes com os quais ele se comunica.
+            Cada componente do sistema pode falhar independentemente, deixando os outros ainda em funcionamento.
+
+        
+    O compartilhamento de recursos é o principal fator
+    de motivação para a construção de sistemas distribuidos.
+    Recursos como impressora, arquivos, páginas web ou registros de BDS
+    são gerenciados por servidores de tipo apropriado, por exemplo,
+    servidores web gerenciam páginas web. Os recursos são acessados por clientes
+    específicos.
+
+        A construção de sistemas distribuidos gera muitos desafios:
+
+            -Heterogenidade: Devem ser construidos a partir de uma variedade
+            de redes, sistemas operacionais, hardware e linguagens de programação
+            diferentes. Os protocolos de comunicação da internet mascaram a diferença
+            existente nas redes e o middleware pode cuidar das outras diferenças
+
+            -Middleware: Camada de software que fornece uma abstração de programação,
+            assim como o mascaramento de heterogeneidade das redes, do hardware,
+            de sistemas operacionais e linguagens de programação.
+
+            -Sistemas abertos: Os sistemas distribuídos devem ser extensíveis -
+            o primeiro passo é publicas as interfaces dos componentes, mas a integração
+            de componentes escritos por diferentes programadores é um desafio real.
+
+            -Segurança: a criptografia pode ser usada para proporcionar proteção adequada
+            para os recursos compartilhados e para manter informações sigilosas em segredo,
+            Quando são transmitidas em mensagens por uma rede.
+
+            -Escabilidade: Um sistema distribuído é considerado escalável se o custo de adição de um
+            usuário for um valor constante, em termos de recursos que devem ser adicioans. Os algoritmos usados
+            para acessar os dados compartilhados devem evitar gargalos de desempenho e os dados devem
+            ser estruturados hierarquicamente para se obter os melhores tempos de acesso. Os dados acessados
+            frequentementepode ser replicados.
+
+            - tratamento de falhas: qualquer processo, computador ou rede pode falhar,
+            independentemente dos outros. Portanto, cada componente precisa conhecer as maneiras possíveis
+            pelas quais os componentes de que depende podem falhar e ser projetado de forma
+            a tratar de cada uma dessas falhar apropiradamente.
+
+            -Concorrência: a presença de múltiplos usuários em um sistema distribuido é uma fonte
+            de pedidos concorrentes para seus recursos. Em um ambiente concorrente, cada recurso deve ser
+            projetado para manter a consistencia nos estados de seus dados.
+
+
+
+Qual a relação da IOT e da Computação Prevasiva?
+    A computação pervasiva, também conhecida como computação onipresente
+    ou computação obíqua, fornece informações, mídia, contexto e poder de 
+    processamento para nós, onde quer que estejamos. 
+    A computação pervasiva é a tecnologia que impulsiona a internet das coisas 
+    (IoT), mas é mais preciso pensar nisso como o mecanismo da internet de tudo

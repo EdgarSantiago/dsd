@@ -1,0 +1,33 @@
+1)No multiprocessamento, um programa pode ser dividido em partes
+independentes que são executadas separadamente, em vários processadores.
+Essas partes são conhecidas como:
+    B)Threads
+
+2)De forma geral, a distribuição de objetos permite um avanço que objetiva
+tomar a informação distribuída mais eficiente, mais flexível e menos complexa. Entretando,
+deve-se ressaltar algumas dificuldades para construir aplicações distribuidas orientadas a objetos,
+por exemplo:
+
+    I - Como essas aplicações devem ser implementadas.
+    II - Como esses sistemas irão se comunicar.
+    III.Como manter as informações num estado consistente.
+    IV. Como localizar serviços de forma a satisfazer às necessidades dos usuários.
+        D)Todas estão corretas
+3)Considerem-se algumas característica de objetos distribuidos, podemos destacar
+a visão do cliente; marque a opção que descreve essa abstração:
+    A)Visão do cliente: A visão do cliente de um objeto distribuido é uma interface que 
+    define somente o comportamento(a funcionalidade) que o cliente pode esperar de um 
+    determinado objeto distribuido
+
+4)Quais são as caracteristicas de um sistema de arquivos distribuidos ?
+    I.Diferentes clientes remotos podem acessar arquivos em um SAD.
+    II. Estrutura de compartilhamento definida
+    III. Clientes não podem estar dispersos.
+        C)somente I, II e III estão corretas
+
+5)Quais são os motivos que levam ao uso de um sistema de arquivos distribuidos ?
+    I - Problema no compartilhamento de recursos;
+    II - Compartilhamento de espaço em disco;
+    III - Compartilhamento da administração (facilidade no backup de informações);
+    IV - Acesso de arquivos particulares de diferentes computadores.
+        E)Todas estão corretas

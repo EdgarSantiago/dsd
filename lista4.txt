@@ -1,0 +1,40 @@
+1)O desenvolvimento de um sistema web que usa arquitetura 3 camadas
+redux a complexidade e o esforço para o desenvolvimento da aplicação
+
+porque
+
+A arquitetura 3 camadas fica mais flexível, possibilitanto que as partes possam
+ser internamente alteradas independente das outras, bastando manter a mesma interface.
+
+    D)
+
+2)Na arquitetura 3 camadas não só os dados estão mais protegidos, como
+também há facilidade de integração de múltiplas fontes de dados.
+ 
+PORQUE
+ 
+O banco de dados não é acessado diretamente pelo cliente, mas sim pelo
+servidor de aplicações.
+
+    A)As duas afirmações são verdadeiras e a segunda justifica a primeira
+
+
+
+
+3)Em se tratando de um sistema WEB, qual a estrutura fundamental que é necessário para que
+ocorra a comuniação via URL?
+
+    D) um servidor DNS
+
+4)Partindo do pré-suposto que os Sistemas Distribuídos baseados na WEB precisam estar
+disponíves na rede mundial, qual a parte da estrutura que permite implementar esse
+mecanimsmo?
+
+    A)Um servidor WEB como o Apache e o IIS.
+
+5)Qual a grande vantagem do SOAP em relação as outras formas de se executar chamadas
+a métodos remotos?
+
+A)A facilidade de configuração do Firewall, já que todos os métodos serão acessados pelo
+mesmo endereço e porta, e todas as mensagens trocadas serão transmissões de XML,
+impossibilitando ataque de envio de arquivos executáveis aos servidores.

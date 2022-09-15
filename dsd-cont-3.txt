@@ -1,0 +1,80 @@
+Sistemas distribuídos baseados em objetos
+    A maioria dos sistemas distribuidos baseados em objetos
+    usam um modelo de objeto remoto no qual um objeto é hospedado por
+    um servidor que permite aos clientes remotos fazerem invocações
+    de métodos. Em muitos casos, esses objetos serão construídos em tempo
+    de execução, o que significa q seu estado é carregado em um servidor 
+    de objetos quando um cliente faz uma invocação remota.
+    Globe é um sistema no qual são suportados objetos compartilhados
+    verdadeiramente distribuidos. nesse caso, o estado de um objeto
+    pode ser fisicamente distribuido e replicado em várias máquinas.
+
+
+Arquitetura
+    A orientação para objetos começou a ser usada para desenvolver
+    sistemas distribuidos na decada de 1980. Mais uma vez, a noção de um
+    objeto independente hospedado por um servidor remoto conseguia
+    um algo grau de transparência de distribuição e, ao mesmo tempo,
+    formava uma base sólida para o desenvolvimento de uma nova geração de 
+    sistemas distribuidos
+
+Objetos distribuidos
+    A caracteristica fundamental de um objeto é que ele encapsula dados,
+    denominados estado, e as operações executadas nesses dados, denominadas métodos.
+    Métodos são disponibilizados por meio de uma interface. É importante entender que não
+    há nenhum modo pelo qual um processo possa acessar ou manipular o estado de um objeto,
+    exceto pela invocação dos métodos disponibilizados para ele por meio de uma interface de objeto.
+    Um objeto pode implementar várias interface. Da mesma forma dada uma definição de interface,
+    pode haver vários objetos que oferecem uma implementação dela.
+
+    Objeto persistente: Não depende de um servidor corrente, ou seja, um objeto persistente
+    continua a existir mesmo que, no momento em questão, ele não esteja contido no espaço de endereços
+    qde qualquer processo servidor.
+
+    Objeto transiente: Depende do servidor onde está hospedado. Tão logo esse servidor saia, o objeto também
+    deixa de existir
+
+Processor
+    Um papel fundamental em sistemas distribuídos baseados em objetos é representado
+    por servidores de objetos, isto é, os servidores designados para hospedar objetos 
+    distribuidos.
+
+Servidores de objetos
+    Servidor configurado para suportar objetos distribuidos.
+    A diferença importanteentre um servidor de objetos geral e outros servidores tradicionais é que um
+    servidor de objetos, por si só, não fornece um serviço específico. Serviços especifícos são
+    implementados pelos objetos que residem no servidor. Em essência, o servidor fornece somente os meios
+    de invocar objetos locais, com base em requisições de clientes remotos.
+
+Comunicação
+    De modo geral, sistemas distribuidosbaseados em objetos oferecem os meios para um cliente remoto
+    invocar um objeto. Esse mecanismo é baseado, em chamadas a procedimentos remotos(RPCs).
+        -Vinculação de um cliente a um objeto
+        -Invocações estáticas e dinâmicas de método remoto
+        -Transferência de parâmetros
+        -Troca de mensagens baseada em objetos
+
+Nomeação
+    O aspecto interessante da nomeação se desenvolve em torno do modo como as referências de objeto 
+    são suportada. No caso do Java, corresponem às implementações de proxies. Todavia, esse modo de referenciar
+    objetos remotos é dependente de linguagem. No caso do Corba é possível fornecer nomeação de forma 
+    independente de linguagem.
+
+Sincronização
+    As questões referentes à sincronização são referentes da operação com objetos
+    distribuidos. Em particular, o fato de os detalhes ficarem ocultos sob as interface pode causar problemas:
+    quando um processo invoca um objeto remoto, ele não sabe se essa invocação resultara na invocação de outors Objetos.
+    Em decorrência, se um objeto for protegido contra acessos concorrentes, podemos ter um conjunto de travas
+    em cascata do qual o processo não tem conhecimento.
+
+Segurança
+    Desempenha um importante papel em qualquer sistema distribuido, e os baseados em objetos não são exceção
+    Quando consideramos a maioria dos sistemas distribuidos baseados em objetos, o fato de que os objetos distribuidos 
+    são objetos remotos leva imediatamente a uma situação na qual as arquiteturas de Segurançapara sistemas
+    distribuidos são muito semelhantes. Em essência, cada objeto é protegido por meio de mecanismos padronizados de autenticação
+    e autorização.
+
+
+
+
+

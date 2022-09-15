@@ -1,0 +1,81 @@
+Sistemas distribuídos
+    São sistemas que rodam em um conjunto
+    de máquinas distribuidas em uma rede, onde
+    estas máquinas proveem acesso aos objetos
+    distribuídos pela rede.
+
+
+Objetos distribuídos
+    São objetos, mas que armazenam código
+    para executar uma determinada tarefa, 
+    independente da localização, isto é, 
+    podem estar na mesma máquina(COM) ou em 
+    máquinas distintas (DCOM, COM+, CORBA)
+
+As Camadas(Arquitetura Três Camadas)
+    Quando se fala em desenvolvimento em camadas,
+    estão se referindo a um modelo de programação
+    que prevê a divisão do programa em três ou mais
+    partes bem definidas e distintas.
+
+Interace
+    A tela do cliente
+
+As regras de negócios
+    Definição de regras na camada do meio,
+    onde se encontra o servidor de aplicação.
+    Servidor de aplicação é a máquina/computador
+    responsável pelo processamento das regras.
+
+Banco de dados
+    O servidor de banco de dados
+
+N de camads ou multicamadas
+    Nada impede de uma camada auxiliadora
+    no desenvolvimento do sistema. isto é, 
+    podemos ter uma camada de coneção ativa
+    com o banco de dados, escrita dentro do objeto,
+    onde vários módulos não necessitam criar a 
+    sua própria camada de conexão(camada persistente).
+    Esses módulos chamam e se conectam no banco de dados
+    utilizando a camada auxiliar. Pronto já temos a quarta
+    camada! A quinta pode ser uma camada de metodos/funções/
+    procedures genéricos que servisão de base para o desenvolvimento
+    da aplicação;
+
+Os protocolos
+    COM, OLE, DCOM, MTS, COM+, CORBA, Sockets, SOAP...
+
+        DDE(Dynamic data exchange)
+            Anterior ao COM o DDE são métodos da API
+            Do Win32 para transferência de dados entre 
+            as aplicações. O DDE foi o primeiro passo
+            no desenvolvimento de diversas tecnologias 
+            de integração e comunicação, surgiu com o windows 3.0.
+
+        COM(Component Object Model)
+            É uma especificação de interfaces binárias
+            para comunicação e pode ser desenvolvido em linguagens distingas:
+            Delphi, C++, Visual Basic, Java, etc.
+
+        DCOM(Distributed Component Object Model)
+            É a versão distribuida no modelo COM da Microsoft.
+            Devemos considerar COM e DCOM como sendo uma única tecnologia.
+
+        MTS(Microsoft Transaction Server)
+            é o servidor de transações da Microsoft Objetos MTS,
+            na realidade, são objetos COM, com suporte a transções
+            de banco de dados. O MTS é parte integrante do Win 98
+            e Windows NT. MTS é uma  extensão do COM.
+
+        COM+(Component Object Model Plus)
+            MTS é a evolução do DCOM, COM+ é a evolução
+            do MTS; o COM+ permite realizar transações em objetos
+            e em Banco de Dados.
+            
+
+
+    
+
+
+

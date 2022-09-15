@@ -1,0 +1,70 @@
+1)Sistemas Distribuidos são aqueles
+em que os dados/recursos são armazenados
+e processados em diferentes localizações; um banco de dados
+é distribuído é um exemplo deste tipo de
+sistema; para o usuário, um sistema de banco de dados
+distribuído deve parecer exatamente como um sistema
+não distribuído; para que tal meta seja alcançada
+alguns objetivos secundários são normalmente
+estabelecidos, entre os quais não se inclui a :
+    e)Coordenação em um nó central
+
+
+2)Sobre os sistemas distribuídos são feitas
+duas afirmativas.
+
+    I- Os objetos do CORBA são definidos por uma interface
+    em uma linguagem chamada _ORB_, que diz quais métodos o objeto
+    exporta e que tipos de parâmetros cada um espera.
+
+    II-O SOAP é um protocolo de computação superficial
+    distribuido que permite a troca de informações em um ambiente
+    descentralizado e distribuido; entretando ele não define um 
+    mecanismo para a descrição e para a localização de objetos em 
+    serviços Web. Esses mecânismos podem ser definidos pelas especificações
+    _UDDI_ e _IOOP_, respectivamente
+
+        E)ORB, UDDI, IOOP
+
+3)Um portal só pode ser considerado como um portal corporativo
+se for executado em um servidor de aplicações funcionando em servidores de plataforma
+alta, capazes de fornecer confiabilidade e robustez;
+
+Um portal corporativo é um meio de conduzir a maioria,
+se não todas as interações de negócios, permitindo a clientes,
+parceiros, fornecedores, investidores, funcionários e outros
+interessados, um acesso imediato e 24x7, às informações e serviços
+da empresa.
+
+    D)A primeira afirmação é falsa e a segunda é verdadeira
+
+4)Qual dos parâmetros a seguir tem o maior impacto sobre o desempenho
+de algoritmos distribuídos ?
+    e)O número de mensagens trocadas.
+
+5) O google file system é o sistema de arquivos distribuídos
+usado pela Google em seus sistemas. Uma característica marcante nele
+é o uso de blocos fixos de 64megabytes(chunks) para o armazenamento
+de arquivos, que são replicados através de cópias em chunkservers, gerenciadas
+por um mestre em cada clustes.
+Assinale a alternativa que contém uma vantagem dessa estrutura.
+
+    A)Permite o acesso sequencial e direto dos arquivos completos em um único bloco.
+
+6)Sobre comunicação entre processos distribuidos, é corretor afirmar:
+    d)Que nos sockets do tipo datagrama, o endereço so socket
+    do processo corresponde acompanha cada envio de mensagem 
+    como um parâmetro da primitiva sendto().
+
+7) Sistemas distribuidos e computadores paralelos com multiplos processadores
+fortemente acoplados possuem algumas caracteristicas comuns como a existencia
+de vários processadores e a possibilidade de executar tarefas simultâneas, 
+uma em cada processador. em um dado instante de tempo. Mas um sistema 
+distribuido diferencia-se de um sistema multiprocessador fortemente acoplado 
+principalmente porque o sistema distribuido:
+    c)Não apresenta memória compartilhada nem relógio global.
+
+8)Em relação às propriedades de transparência que podem ser encotradas
+em um sistema distribuído, assinale a alternativa correta.
+    d)A propriedade de transparência de localização significa que o usuário
+    pode localizar os recursos conhecendo a localização fisíca dos mesmos.
