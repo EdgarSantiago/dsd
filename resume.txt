@@ -1,0 +1,14 @@
+Oque é Json ?
+    Json é um formado leve de intercâmbio
+    de dados. É fácil para os humanos ler e 
+    escrever. é fácil para as maquinas
+    analisar e gerar.
+
+A diferença entre xmle json é a forma de fazer
+a notação dos dados.
+O json utiliza uma notação simples, enquanto xml
+utiliza uma estrutura de tags personalisadas para 
+representar os objetos.
+
+REST é um conjunto de diretrizer que oferece uma implementação
+flexivel

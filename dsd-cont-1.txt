@@ -56,7 +56,7 @@
     interligados em rede podem ser distribuidos de maneira
     útil.
 
-        Para definis um sistema distribuido deve-se levar
+        Para definir um sistema distribuido deve-se levar
         em consideração:
 
             - Concorrência: em uma rede de computadores, a execução
@@ -75,10 +75,10 @@
 
             - Falhas independentes: todos os sistemas de computador podem falhar e é responsabilidade
             dos projetistas de sistema pensar nas consequências das possíveis falhas.
-            Nos sistemas distribuídos, as falhas são diferenter. Falhas na rede resultam
+            Nos sistemas distribuídos, as falhas são diferentes. Falhas na rede resultam
             no isolamento dos computadores que estão conectados a ela, mas isso não significa
             que eles param de funcionar. Na verdade, os programas neles existentes talvez não
-            consigam detectar se a rede falhou ou se tornor demasiadamente lenta. Analogamente, a falha
+            consigam detectar se a rede falhou ou se tornou demasiadamente lenta. Analogamente, a falha
             de um computador ou o término inesperado de um programa em algum lugar no sistema não
             é imediatamente percebida pelos outros componentes com os quais ele se comunica.
             Cada componente do sistema pode falhar independentemente, deixando os outros ainda em funcionamento.
@@ -103,7 +103,7 @@
             de sistemas operacionais e linguagens de programação.
 
             -Sistemas abertos: Os sistemas distribuídos devem ser extensíveis -
-            o primeiro passo é publicas as interfaces dos componentes, mas a integração
+            o primeiro passo é publicar as interfaces dos componentes, mas a integração
             de componentes escritos por diferentes programadores é um desafio real.
 
             -Segurança: a criptografia pode ser usada para proporcionar proteção adequada
@@ -119,7 +119,7 @@
             - tratamento de falhas: qualquer processo, computador ou rede pode falhar,
             independentemente dos outros. Portanto, cada componente precisa conhecer as maneiras possíveis
             pelas quais os componentes de que depende podem falhar e ser projetado de forma
-            a tratar de cada uma dessas falhar apropiradamente.
+            a tratar de cada uma dessas falhas apropiadamente.
 
             -Concorrência: a presença de múltiplos usuários em um sistema distribuido é uma fonte
             de pedidos concorrentes para seus recursos. Em um ambiente concorrente, cada recurso deve ser

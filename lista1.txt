@@ -52,7 +52,7 @@ Assinale a alternativa que contém uma vantagem dessa estrutura.
     A)Permite o acesso sequencial e direto dos arquivos completos em um único bloco.
 
 6)Sobre comunicação entre processos distribuidos, é corretor afirmar:
-    d)Que nos sockets do tipo datagrama, o endereço so socket
+    d)Que nos sockets do tipo datagrama, o endereço do socket
     do processo corresponde acompanha cada envio de mensagem 
     como um parâmetro da primitiva sendto().
 

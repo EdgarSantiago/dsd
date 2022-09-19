@@ -56,9 +56,6 @@ afirmativas relacionadas ao modelo de arquitetura cliente-servidor:
     III. Uma característica importante da arquitetura cliente-servidor é a
     escalabilidade.
     
-    IV. Nessa arquitetura, o processo servidor inicia a comunicação com o
-    processo cliente.
-
     Assinale a alternativa correta.
     B)Somenta I, II, III são verdadeiras.
 
